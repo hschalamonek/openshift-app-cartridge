@@ -12,6 +12,10 @@ This cartridge will act very similarly to the jbossas-7 cartridge that you can c
 You should be able to modify the code in the /src directory of the git repository, and do a git add, git commit, and git push and have it deployed as ROOT.war.  
 You can also remove the pom.xml and /src directories and place a war file in the deployments directory and they should deploy like they do on JBoss AS 7  
 
+### Cartridge URL
+
+https://cartreflect-claytondev.rhcloud.com/github/hschalamonek/openshift-app-cartridge
+
 ### Create a new WildFly 9 app
 
 There are a few ways to get started quickly on OpenShift. To create a new WildFly app using the OpenShift Web Console, click [here](https://openshift.redhat.com/app/console/application_type/cart!jboss-wildfly-9). If you'd like to create a new WildFly app directly from Eclipse, simply install the [JBoss OpenShift Tools](https://developers.openshift.com/en/getting-started-eclipse.html). If you'd like to use the OpenShift [command line tools](https://www.openshift.com/get-started) instead, the following command can be used:
